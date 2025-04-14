@@ -2,7 +2,7 @@ from typing import Optional
 from fastapi import FastAPI,Request, HTTPException
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
-from sqlalchemy import Column, create_engine, Column, Integer, String, Text, DateTime
+from sqlalchemy import Column, create_engine, Column, Integer, String, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
