@@ -7,7 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
 
-DATABASE_URL = "mysql+pymysql://root:yuki0108@127.0.0.1/test"
+DATABASE_URL = "database-1.c14yeqwm8prw.ap-southeast-2.rds.amazonaws.com"
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
 
